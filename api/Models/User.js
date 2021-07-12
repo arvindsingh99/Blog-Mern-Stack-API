@@ -19,7 +19,7 @@ const UserSchema = new mongoose.Schema({
          type: String,
          default: "",
      },
-},  {timestamp: true}
+},  {timestamps: true}
 );
 
 module.exports = mongoose.model("User", UserSchema);
